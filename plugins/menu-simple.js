@@ -34,7 +34,7 @@ import moment from 'moment-timezone'
     itemCount : 9998282719181899999,
     status: 404,
     surface : 404,
-    message: `Script by PutraModz ×፝֟͜×`,
+    message: `Script by Ikyy Official ×፝֟͜×`,
     orderTitle: `${ucapan()}`,
     thumbnail:   await conn.resize(await (await fetch(pp)).buffer(), 300, 250),
     sellerJid: '0@s.whatsapp.net' 
@@ -194,20 +194,20 @@ import moment from 'moment-timezone'
       sections
     }
     return conn.sendMessage(m.chat, listMessage, { quoted: fload, mentions: await conn.parseMention(judul)}, m, {
-  'document':{'url':'https://youtu.be/hklv-Ysqqac'},
+  'document':{'url':'https://youtu.be/'},
 'mimetype':global.dpdf,
-'fileName':'「 ᴹᴿ᭄ PutraModz ×፝֟͜× 」',
+'fileName':'「 ᴹᴿ᭄ Ikyy Official ×፝֟͜× 」',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'previewType':'pdf',
 contextInfo: { externalAdReply :{ showAdAttribution: true,
-                        sourceUrl: 'https://youtu.be/dTNrtQagzmc',
+                        sourceUrl: 'https://youtu.be/',
                         mediaType: 2,
-                        description: `⚘ ᴄʀᴇᴀᴛᴇ PutraModz ×፝֟͜×`,
+                        description: `⚘ ᴄʀᴇᴀᴛᴇ ɪᴋʏʏ ᴏғғɪᴄɪᴀʟ ×፝֟͜×`,
                         title: `💌 My Ultah: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `⚘ by PutraModz ×፝֟͜×`,          previewType: 0,
+                        body: `⚘ by ɪᴋʏʏ ᴏғғɪᴄɪᴀʟ ×፝֟͜×`,          previewType: 0,
                         thumbnail: await (await fetch(thumb)).buffer(),
-                        mediaUrl: 'https://youtu.be/dTNrtQagzmc'
+                        mediaUrl: 'https://youtu.be/'
                         
                       }}
 })

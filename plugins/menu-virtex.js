@@ -46,20 +46,20 @@ const time = moment.tz('Asia/Jakarta').format('HH')
     }
     let muptime = clockString(_muptime)
  await conn.sendButton(m.chat, `${wish()} ${name}`,runnya + '\n\n' + wm + '\n\n' + botdate, thumb, [['JANGAN SPAM KAK','.owner']], m, {
-  'document':{'url':'https://youtu.be/dTNrtQagzmc'},
+  'document':{'url':'https://youtu.be/'},
 'mimetype':global.dpdf,
-'fileName':'「 ᴹᴿ᭄ PutraModz ×፝֟͜× 」',
+'fileName':'「 ᴹᴿ᭄ Ikyy Official ×፝֟͜× 」',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'previewType':'pdf',
 contextInfo: { externalAdReply :{ showAdAttribution: true,
-                        sourceUrl: 'https://youtu.be/dTNrtQagzmc',
+                        sourceUrl: 'https://youtu.be/',
                         mediaType: 2,
-                        description: `⚘ ᴄʀᴇᴀᴛᴇ PutraModz ×፝֟͜×`,
+                        description: `⚘ ᴄʀᴇᴀᴛᴇ Ikyy Official ×፝֟͜×`,
                         title: `💌 My Ultah: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `⚘ by PutraModz ×፝֟͜×`,          previewType: 0,
+                        body: `⚘ by Ikyy Official ×፝֟͜×`,          previewType: 0,
                         thumbnail: await (await fetch(thumb)).buffer(),
-                        mediaUrl: 'https://youtu.be/dTNrtQagzmc'
+                        mediaUrl: 'https://youtu.be/'
                         
                       }}
 })

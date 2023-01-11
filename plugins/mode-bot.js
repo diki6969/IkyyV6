@@ -17,9 +17,9 @@ contextInfo: { externalAdReply :{
                         mediaType: 2,
                         description: 'anu',
                         title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `AMELIA PUTRI SEPTIANY`,          previewType: 0,
+                        body: `IKYY OFFICIAL`,          previewType: 0,
                         thumbnail: await (await fetch(`https://telegra.ph/file/4149491a34cdd06cd6dd7.jpg`)).buffer(),
-                        sourceUrl: 'https://youtu.be/dTNrtQagzmc'
+                        sourceUrl: 'https://youtu.be/'
                       }}
 })
 }

@@ -39,22 +39,22 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
 let cap = `Hay kak @${await m.sender.split('@')[0]}, itu nomor ownerku jangan dispam yah ^_^` 
   let buttonMessage= {
-'document':{'url':'https://youtu.be/dTNrtQagzmc'},
+'document':{'url':'https://youtu.be/'},
 'mimetype':global.ddocx,
-'fileName':'「 ᴹᴿ᭄ PutraModz ×፝֟͜× 」',
+'fileName':'「 ᴹᴿ᭄ Ikyy Official ×፝֟͜× 」',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'contextInfo':{
 'forwardingScore':555,
 'isForwarded':true,
 'externalAdReply':{
-'mediaUrl':'https://youtu.be/dTNrtQagzmc',
+'mediaUrl':'https://youtu.be/',
 'mediaType':2,
 'previewType':'pdf',
 'title':`💌 Ultah Owner: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-'body':`⚘ by ᴹᴿ᭄ PutraModz ×፝֟͜×`,
+'body':`⚘ by ᴹᴿ᭄ Ikyy Official ×፝֟͜×`,
 'thumbnail': await(await fetch(thumb)).buffer(),
-'sourceUrl':'https://youtu.be/dTNrtQagzmc'}},
+'sourceUrl':'https://youtu.be/'}},
 'caption':cap,
 'footer':`Itu Owner Ku Yah Kak Jangan Sungkem Untuk Chat ;3
 
