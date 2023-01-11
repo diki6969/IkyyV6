@@ -26,20 +26,20 @@
     "MD",
     "baileys-md"
   ],
-  "homepage": "https://github.com/saipulanuar/RPG-MD-V5",
+  "homepage": "https://github.com/diki6969/IkyyV6",
   "author": {
-    "name": "Saipul Anuar"
+    "name": "Ikyy Official"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saipulanuar/RPG-MD-V5.git"
+    "url": "git+https://github.com/diki6969/IkyyV6.git"
   },
   "bugs": {
     "url": "https://github.com/saipulanuar/RPG-MD-V5/issues"
   },
   "license": "ISC",
   "dependencies": {
-    "@adiwajshing/baileys": "github:Saipulanuar/baileys",
+    "@adiwajshing/baileys": "github:hostinger-bot/baileys",
         "@bochilteam/scraper": "^2.0.0",
         "@vitalets/google-translate-api": "^8.0.0",
         "awesome-phonenumber": "^2.68.0",
