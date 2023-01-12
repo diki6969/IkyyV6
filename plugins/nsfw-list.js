@@ -34,8 +34,8 @@ let resl = 'https://api.lolhuman.xyz/api/random2/'
 let apil = '?apikey=SGWN'
 
 //> Xteam
-let xres = 'https://api.xteam.xyz/randomimage/'
-let xapi = '?APIKEY=ebb6251cc00f9c63'
+let xres = 'https://zenzapis.xyz/api/morensfw/
+let xapi = '?apikey=e07bf160d9a8'
 //--------------------------------
 
 // ••••••••••••••••• OPTIONS •••••••••••
@@ -122,7 +122,7 @@ const sections = [
 	{title: `${(ch == true ? false : femdom) == true ? p:f}` + "F • Femdom", rowId: ".femdom"},
 	{title: `${(ch == true ? false : futanari) == true ? p:f}` + "F • Futanari", rowId: ".futanari"},
   //{title: `${(ch == true ? false : girlsolo) == true ? p:f}` + "G • Girl Solo", rowId: ".girlsolo"},
-	{title: `${(ch == true ? false : hentai) == true ? p:f}` + "H • Hentai", rowId: ".hentai"},
+	{title: `${(ch == true ? false : hentai) == true ? p:f}` + "H • Hentai", rowId: ".hentai2"},
 	{title: `${(ch == true ? false : holo) == true ? p:f}` + "H • Holo", rowId: ".holo"},
 	{title: `${(ch == true ? false : jahy) == true ? p:f}` + "J • Jahy", rowId: ".jahy"},
   //{title: `${(ch == true ? false : kitsune) == true ? p:f}` + "K • Kitsune", rowId: ".kitsune"},

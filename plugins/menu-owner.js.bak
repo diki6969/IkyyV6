@@ -26,22 +26,71 @@ const time = moment.tz('Asia/Jakarta').format('HH')
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
   let name = await conn.getName(m.sender)
-  let runnya = `┏━━━ꕥ〔 Quotes 〕ꕥ━⬣
-┃✾ .murothal
-┃✾ .pantun
-┃✾ .motivasi
-┃✾ .quotesanime 🅛
-┃✾ .bacot
-┃✾ .bucin
-┃✾ .dare
-┃✾ .galau
-┃✾ .gombal
-┃✾ .hacker
-┃✾ .quotes
-┃✾ .katabijak
-┃✾ .truth
-┃✾ .videoquotes 🅛 🅟
-┃✾ .videogalau 🅛 🅟
+  let runnya = `┏━━━ꕥ〔 Owner 〕ꕥ━⬣
+┃✾ .block
+┃✾ .unblock
+┃✾ .broadcast <teks>
+┃✾ .bc <teks>
+┃✾ .broadcastchats <teks>
+┃✾ .bcchats <teks>
+┃✾ .broadcastgroup <teks>
+┃✾ .bcgc <teks>
+┃✾ .delesewa
+┃✾ .addsewa <hari>
+┃✾ .titlein [nama]
+┃✾ .listpc
+┃✾ .oadd @user
+┃✾ .o+ @user
+┃✾ .addowner [@user]
+┃✾ .addprem [@user] <days>
+┃✾ .backup
+┃✾ .banchat
+┃✾ .ban
+┃✾ .NexBotz(on/off)
+┃✾ .cleartmp
+┃✾ .buatgrup  🅟
+┃✾ .delowner [@user]
+┃✾ .delprem [@user]
+┃✾ .deleteuser
+┃✾ .df
+┃✾ .email
+┃✾ >
+┃✾ =>
+┃✾ $ [Exec]
+┃✾ .fix <database>
+┃✾ .getdb
+┃✾ .getfile <text>
+┃✾ .getname <@tag/reply>
+┃✾ .getsessi
+┃✾ .getplugin <text>
+┃✾ .ojoin <chat.whatsapp.com>
+┃✾ .ookick @user
+┃✾ .o- @user
+┃✾ .leavegc
+┃✾ .out
+┃✾ .opromote @tag
+┃✾ .resetlimit
+┃✾ .resetprefix
+┃✾ .restart
+┃✾ .rf <old name> | <new name>
+┃✾ .renamefile <old name> | <new name>
+┃✾ .setbotbio
+┃✾ .setmenu <teks>
+┃✾ .setmenubefore <teks>
+┃✾ .setmenuheader <teks>
+┃✾ .setmenubody <teks>
+┃✾ .setmenufooter <teks>
+┃✾ .setmenuafter <teks>
+┃✾ .setppbot
+┃✾ .sf <teks>
+┃✾ .simulate <event> [@mention]
+┃✾ .tesbot
+┃✾ .unbanchat
+┃✾ .unban
+┃✾ .self
+┃✾ .public
+┃✾ .unwarn @mention
+┃✾ .warn @tag
 ┗━━━━━━━━━ꕥ`
   let _muptime
     if (process.send) {
@@ -53,20 +102,20 @@ const time = moment.tz('Asia/Jakarta').format('HH')
     }
     let muptime = clockString(_muptime)
  await conn.sendButton(m.chat, `${wish()} ${name}`,runnya + '\n\n' + wm + '\n\n' + botdate, thumb, [['JANGAN SPAM KAK','.owner']], m, {
-  'document':{'url':'https://youtu.be/'},
+  'document':{'url':'https://youtu.be/dTNrtQagzmc'},
 'mimetype':global.dpdf,
-'fileName':'「 ᴹᴿ᭄ Ikyy Official ×፝֟͜× 」',
+'fileName':'「 ᴹᴿ᭄ PutraModz ×፝֟͜× 」',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'previewType':'pdf',
 contextInfo: { externalAdReply :{ showAdAttribution: true,
-                        sourceUrl: 'https://youtu.be/',
+                        sourceUrl: 'https://youtu.be/dTNrtQagzmc',
                         mediaType: 2,
-                        description: `⚘ ᴄʀᴇᴀᴛᴇ ᴹᴿ᭄ Ikyy Official ×፝֟͜×`,
+                        description: `⚘ ᴄʀᴇᴀᴛᴇ ᴹᴿ᭄ PutraModz ×፝֟͜×`,
                         title: `💌 My Ultah: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `⚘ by ᴹᴿ᭄ Ikyy Official ×፝֟͜×`,          previewType: 0,
+                        body: `⚘ by ᴹᴿ᭄ PutraModz ×፝֟͜×`,          previewType: 0,
                         thumbnail: await (await fetch(thumb)).buffer(),
-                        mediaUrl: 'https://youtu.be/'
+                        mediaUrl: 'https://youtu.be/dTNrtQagzmc'
                         
                       }}
 })
@@ -77,8 +126,8 @@ ptt: true })
 }
 
 
-handler.help = ['menuquotes']
-handler.command = /^(menuquotes)$/i
+handler.help = ['menuowner']
+handler.command = /^(menuowner)$/i
 
 handler.limit = false
 handler.register = true

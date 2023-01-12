@@ -61,7 +61,7 @@ global.prems = ['6282281657946'] // Premium user bukan disini nambahinnya, ketik
 
 
 /*============== API ==============*/
-global.zenzkey = 'b8040941f7'
+global.zenzkey = 'e07bf160d9a8'
 global.lolkey = 'SGWN' // PUNYA WAHID 357d3c85079c4e0818731e6b
 global.APIs = { // API Prefix
   // name: 'https://website'

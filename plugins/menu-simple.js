@@ -78,7 +78,7 @@ import moment from 'moment-timezone'
                   "description": "Menu 18+",
                   "rowId": ".menunsfw"
                 }, {
-                  "title": "[😭] Cekversi NextBotz",
+                  "title": "[😈] Cekversi IkyyBotz",
                   "description": "Mau Cek Versi kack",
                   "rowId": ".cekversi"
                 }, {

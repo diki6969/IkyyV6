@@ -118,7 +118,7 @@ Nomor Anda Akan Di Banned/Block!.
 'title':global.titlebot,
 'body':global.titlebot,
 'thumbnail':await(await fetch('https://telegra.ph/file/cb492d88c954808d10178.jpg')).buffer(),
-'sourceUrl':'https://youtu.be/'}},
+'sourceUrl':'https://youtu.be/QOm1gEFbMdI'}},
 'caption':cap,
 'footer':botdate,
 'buttons':[

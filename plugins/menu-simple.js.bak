@@ -207,7 +207,7 @@ contextInfo: { externalAdReply :{ showAdAttribution: true,
                         title: `💌 My Ultah: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
                         body: `⚘ by ɪᴋʏʏ ᴏғғɪᴄɪᴀʟ ×፝֟͜×`,          previewType: 0,
                         thumbnail: await (await fetch(thumb)).buffer(),
-                        mediaUrl: 'https://youtu.be/dTNrtQagzmc'
+                        mediaUrl: 'https://youtu.be/'
                         
                       }}
 })

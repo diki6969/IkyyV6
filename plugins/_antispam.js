@@ -6,7 +6,7 @@ export async function all(m) {
         this.spam[m.sender].count++
         if (m.messageTimestamp.toNumber() - this.spam[m.sender].lastspam > 5) {
             if (this.spam[m.sender].count > 5) {
-                global.db.data.users[m.sender].banned = true
+                global.db.data.users[m.sender].banned = false
                 m.reply('*📮Kamu di banned karena spam*\n\n*💬Laporkan masalah ini ke wa.me/6282281657946?text=📧Bang+tolong+unban+nomor+ku*')
             }
             this.spam[m.sender].count = 0

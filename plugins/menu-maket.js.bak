@@ -26,23 +26,54 @@ const time = moment.tz('Asia/Jakarta').format('HH')
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
   let name = await conn.getName(m.sender)
-  let runnya = `┏━━━ꕥ〔 Quotes 〕ꕥ━⬣
-┃✾ .murothal
-┃✾ .pantun
-┃✾ .motivasi
-┃✾ .quotesanime 🅛
-┃✾ .bacot
-┃✾ .bucin
-┃✾ .dare
-┃✾ .galau
-┃✾ .gombal
-┃✾ .hacker
-┃✾ .quotes
-┃✾ .katabijak
-┃✾ .truth
-┃✾ .videoquotes 🅛 🅟
-┃✾ .videogalau 🅛 🅟
-┗━━━━━━━━━ꕥ`
+  let runnya = `┏━━━ꕥ〔 Maker 〕ꕥ━⬣
+┃✾ .lolice
+┃✾ .logololi <text>
+┃✾ .logoneko <text|text>
+┃✾ .logorem <text|text>
+┃✾ .sadboylogo <text|text>
+┃✾ .agedetect (caption|reply media)
+┃✾ .blackpinkk <text> 🅛
+┃✾ .bonk 🅛
+┃✾ .carbon 🅛
+┃✾ .donaldtrumptweet <text> 🅛 🅟
+┃✾ .ephoto 🅛
+┃✾ .ephoto2 🅛
+┃✾ .ephotox 🅛
+┃✾ .gta <text> 🅛 🅟
+┃✾ .hornycard 🅛
+┃✾ .hornylicense 🅛
+┃✾ .itssostupid 🅛
+┃✾ .iss 🅛
+┃✾ .stupid 🅛
+┃✾ .itssostupid 🅛
+┃✾ .iss 🅛
+┃✾ .stupid 🅛
+┃✾ .jimp <efek>
+┃✾ .jimp2 <efe> <level>
+┃✾ .logokaneki <text> 🅛
+┃✾ .logokaneki <text> 🅛
+┃✾ .sadboylogo <text|text> 🅛
+┃✾ .logololi <text> 🅛
+┃✾ .logoneko <text|text> 🅛
+┃✾ .photooxy 🅛
+┃✾ .photooxy2 🅛
+┃✾ .phfilter <caption|reply>
+┃✾ .phmaker <caption|reply>
+┃✾ .edit1 <text>
+┃✾ .edit2 <text>
+┃✾ .edit3 <text>
+┃✾ .logorem <text|text> 🅛
+┃✾ .sadboylogo <text|text> 🅛
+┃✾ .simpcard 🅛
+┃✾ .hartatahtacustom <text> 🅛
+┃✾ .htc <text> 🅛
+┃✾ .text1 🅛
+┃✾ .text2 🅛
+┃✾ .text3 🅛 🅟
+┃✾ .wolflogo <text|text>
+┃✾ .pornhub <text1>|<teks2> 🅛 🅟
+┗━━━━━━━━━ꕥ
   let _muptime
     if (process.send) {
       process.send('uptime')
@@ -53,20 +84,20 @@ const time = moment.tz('Asia/Jakarta').format('HH')
     }
     let muptime = clockString(_muptime)
  await conn.sendButton(m.chat, `${wish()} ${name}`,runnya + '\n\n' + wm + '\n\n' + botdate, thumb, [['JANGAN SPAM KAK','.owner']], m, {
-  'document':{'url':'https://youtu.be/'},
+  'document':{'url':'https://youtu.be/dTNrtQagzmc'},
 'mimetype':global.dpdf,
-'fileName':'「 ᴹᴿ᭄ Ikyy Official ×፝֟͜× 」',
+'fileName':'「 ᴹᴿ᭄ PutraModz ×፝֟͜× 」',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'previewType':'pdf',
 contextInfo: { externalAdReply :{ showAdAttribution: true,
-                        sourceUrl: 'https://youtu.be/',
+                        sourceUrl: 'https://youtu.be/dTNrtQagzmc',
                         mediaType: 2,
-                        description: `⚘ ᴄʀᴇᴀᴛᴇ ᴹᴿ᭄ Ikyy Official ×፝֟͜×`,
+                        description: `⚘ ᴄʀᴇᴀᴛᴇ ᴹᴿ᭄ PutraModz ×፝֟͜×`,
                         title: `💌 My Ultah: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `⚘ by ᴹᴿ᭄ Ikyy Official ×፝֟͜×`,          previewType: 0,
+                        body: `⚘ by ᴹᴿ᭄ PutraModz ×፝֟͜×`,          previewType: 0,
                         thumbnail: await (await fetch(thumb)).buffer(),
-                        mediaUrl: 'https://youtu.be/'
+                        mediaUrl: 'https://youtu.be/dTNrtQagzmc'
                         
                       }}
 })
@@ -77,8 +108,8 @@ ptt: true })
 }
 
 
-handler.help = ['menuquotes']
-handler.command = /^(menuquotes)$/i
+handler.help = ['Maker']
+handler.command = /^(makery)$/i
 
 handler.limit = false
 handler.register = true
